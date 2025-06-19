@@ -14,22 +14,11 @@
 
 }
 
-.container1 {
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(220, 163, 163);
-}
-
-.container2 {
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(76, 92, 80);
-}
-
 nav {
     width: 100vw;
     height: 30px;
     color: white;
+    position: relative;
 
 
 }
@@ -46,8 +35,9 @@ nav a {
 }
 
 nav h1 {
-    margin-left: 2%;
-    padding: 1%;
+    position: absolute;
+    left: 45%;
+
 }
 
 img {
@@ -55,3 +45,88 @@ img {
     height: 100vh;
 }
 
+
+
+
+.container1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(220, 163, 163);
+    background-image: url(Porsche\ Wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container1 h1 {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+
+}
+
+.container1 p {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+
+}
+
+.container1 h3 {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+
+}
+
+.container1 button {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+
+}
+
+.container2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(76, 92, 80);
+    background-image: url(911.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container2 h1 {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+
+}
+
+.container2 p {
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+
+}
+
+.container2 h3 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+
+}
+
+.container2 button {
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+
+}
+
+.container2 button:hover{
+    size: 110%;
+}
